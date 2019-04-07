@@ -24,6 +24,69 @@ namespace KimlabRobot {
     `)
     }
 	
+
+	
+	//% blockId="RWHEELS" block="Right_wheel_STOP"
+    //% blockGap=2 weight=1
+    export function RWHEELS(): void {
+	pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P16, 0)
+        
+    }
+	//% blockId="RWHEELf" block="Right_wheel_FORWARD"
+    //% blockGap=2 weight=1
+    export function RWHEELf(): void {
+	pins.digitalWritePin(DigitalPin.P8, 1)
+    pins.digitalWritePin(DigitalPin.P16, 0)
+        
+    }
+	//% blockId="RWHEELb" block="Right_wheel_BACK"
+    //% blockGap=2 weight=1
+    export function RWHEELb(): void {
+	pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P16, 1)
+        
+    }
+	
+	//% blockId="LWHEELS" block="Left_wheel_STOP"
+    //% blockGap=2 weight=1
+    export function LWHEELS(): void {
+	pins.digitalWritePin(DigitalPin.P13, 0)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+        
+    }
+	//% blockId="LWHEELf" block="Left_wheel_FORWARD"
+    //% blockGap=2 weight=1
+    export function LWHEELf(): void {
+	pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+        
+    }
+	//% blockId="LWHEELb" block="Left_wheel_BACK"
+    //% blockGap=2 weight=1
+    export function LWHEELb(): void {
+	pins.digitalWritePin(DigitalPin.P13, 0)
+    pins.digitalWritePin(DigitalPin.P14, 1)
+        
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	//% blockId="Button_PullUp" block="Button_Res_Pullup"
+    //% blockGap=2 weight=1
+    export function Button_PullUp(): void {
+        pins.setPull(DigitalPin.P0, PinPullMode.PullUp)
+		pins.setPull(DigitalPin.P2, PinPullMode.PullUp)
+		pins.setPull(DigitalPin.P1, PinPullMode.PullUp)
+		pins.setPull(DigitalPin.P5, PinPullMode.PullUp)
+    }
+	
+	
 	
   
      //% blockId=Left_Servo

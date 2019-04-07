@@ -1,4 +1,4 @@
-# KimLabs_microbit-controller
+# KimLabs-microbit-controller
 
 測試microbit積木
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-KimLabs_microbit-controller=github:kimlabtoy/microbit-controller
+KimLabs-microbit-controller=github:kimlabtoy/microbit-controller
 ```

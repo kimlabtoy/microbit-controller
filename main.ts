@@ -26,46 +26,46 @@ namespace KimlabRobot {
 	
 
 	
-	//% blockId="RWHEELS" block="Right wheel STOP"
-    //% blockGap=2 weight=1
+	//% blockId="RWHEELS" block="Right_wheel_STOP"
+    
     export function RWHEELS(): void {
-    pins.digitalWritePin(DigitalPin.P8, 0)
+	pins.digitalWritePin(DigitalPin.P8, 0)
     pins.digitalWritePin(DigitalPin.P16, 0)
         
     }
-	//% blockId="RWHEELf" block="Right wheel FORWARD"
-    //% blockGap=2 weight=1
+	//% blockId="RWHEELf" block="Right_wheel_FORWARD"
+    
     export function RWHEELf(): void {
-    pins.digitalWritePin(DigitalPin.P8, 1)
+	pins.digitalWritePin(DigitalPin.P8, 1)
     pins.digitalWritePin(DigitalPin.P16, 0)
         
     }
-	//% blockId="RWHEELb" block="Right wheel BACK"
-    //% blockGap=2 weight=1
+	//% blockId="RWHEELb" block="Right_wheel_BACK"
+   
     export function RWHEELb(): void {
-    pins.digitalWritePin(DigitalPin.P8, 0)
+	pins.digitalWritePin(DigitalPin.P8, 0)
     pins.digitalWritePin(DigitalPin.P16, 1)
         
     }
 	
-	//% blockId="LWHEELS" block="Left wheel STOP"
-    //% blockGap=2 weight=1
+	//% blockId="LWHEELS" block="Left_wheel_STOP"
+   
     export function LWHEELS(): void {
-    pins.digitalWritePin(DigitalPin.P13, 0)
+	pins.digitalWritePin(DigitalPin.P13, 0)
     pins.digitalWritePin(DigitalPin.P14, 0)
         
     }
-	//% blockId="LWHEELf" block="Left wheel FORWARD"
-    //% blockGap=2 weight=1
+	//% blockId="LWHEELf" block="Left_wheel_FORWARD"
+    
     export function LWHEELf(): void {
-    pins.digitalWritePin(DigitalPin.P13, 1)
+	pins.digitalWritePin(DigitalPin.P13, 1)
     pins.digitalWritePin(DigitalPin.P14, 0)
         
     }
-	//% blockId="LWHEELb" block="Left wheel BACK"
-    //% blockGap=2 weight=1
+	//% blockId="LWHEELb" block="Left_wheel_BACK"
+   
     export function LWHEELb(): void {
-    pins.digitalWritePin(DigitalPin.P13, 0)
+	pins.digitalWritePin(DigitalPin.P13, 0)
     pins.digitalWritePin(DigitalPin.P14, 1)
         
     }
@@ -77,13 +77,13 @@ namespace KimlabRobot {
 	
 	
 	
-    //% blockId="Button_PullUp" block="Button Res Pullup"
-    //% blockGap=2 weight=1
+	//% blockId="Button_PullUp" block="Button_Res_Pullup"
+    
     export function Button_PullUp(): void {
-    pins.setPull(DigitalPin.P0, PinPullMode.PullUp)
-    pins.setPull(DigitalPin.P2, PinPullMode.PullUp)
-    pins.setPull(DigitalPin.P1, PinPullMode.PullUp)
-    pins.setPull(DigitalPin.P5, PinPullMode.PullUp)
+        pins.setPull(DigitalPin.P0, PinPullMode.PullUp)
+		pins.setPull(DigitalPin.P2, PinPullMode.PullUp)
+		pins.setPull(DigitalPin.P1, PinPullMode.PullUp)
+		pins.setPull(DigitalPin.P5, PinPullMode.PullUp)
     }
 	
 	

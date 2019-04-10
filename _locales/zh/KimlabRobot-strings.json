@@ -1,0 +1,18 @@
+{
+    "KimlabRobot|block": "機器人方塊",
+    //"tools.areaOfRectangle|block": "長方形面積 長 %length|寬 %width",
+    "KimlabRobot.LedTest|block": "笑臉"
+	
+	"KimlabRobot.RWHEELS|block": "右輪停止"
+	"KimlabRobot.RWHEELf|block": "右輪往前"
+	"KimlabRobot.RWHEELb|block": "右輪往後"
+	
+	"KimlabRobot.BWHEELS|block": "左輪停止"
+	"KimlabRobot.BWHEELf|block": "左輪往前"
+	"KimlabRobot.BWHEELb|block": "左輪往後"
+	
+	"KimlabRobot.Button_PullUp|block": "設定按鈕"
+	
+	"KimlabRobot.Left_Servo|block": "左邊伺服馬達"
+	"KimlabRobot.Right_Servo|block": "右邊伺服馬達"	
+}

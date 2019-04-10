@@ -1,14 +1,8 @@
-//% weight=0 color=#000000 icon="\uf11a" block="KimlabRobot"
+//% weight=0 color=#000000 icon="\uf11a"
 namespace KimlabmicrobitC {
    
 	
-	/*回傳值
-    //% blockId="areaOfRectangle" block="area of rectangle length %length|width %width"
-    //% blockGap=2 weight=0 blockExternalInputs=true
-    export function areaOfRectangle(length: number, width:number): number {
-        return length*width
-    }
-	*/
+	
     /**
     * 不回傳值
     */

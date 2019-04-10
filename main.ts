@@ -1,5 +1,5 @@
 //% weight=0 color=#000000 icon="\uf11a" block="KimlabRobot"
-namespace KimlabRobot {
+namespace KimlabmicrobitC {
    
 	
 	/*回傳值

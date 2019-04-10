@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/KimlabRobot-strings.json"
+        "_locales/zh/KimlabmicrobitC-strings.json"
     ],
     "public": true
 }

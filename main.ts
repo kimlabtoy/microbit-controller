@@ -1,5 +1,5 @@
 //% weight=0 color=#000000 icon="\uf11a"
-namespace KimlabmicrobitC {
+namespace Kimlabmicrobit {
    
 	
 	

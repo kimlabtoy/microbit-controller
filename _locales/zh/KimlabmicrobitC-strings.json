@@ -3,16 +3,16 @@
    
     "KimlabmicrobitC.LedTest|block": "笑臉",
 	
-	"KimlabmicrobitC.RWHEELS|block": "右輪停止",
-	"KimlabmicrobitC.RWHEELf|block": "右輪往前",
-	"KimlabmicrobitC.RWHEELb|block": "右輪往後",
+    "KimlabmicrobitC.RWHEELS|block": "右輪停止",
+    "KimlabmicrobitC.RWHEELf|block": "右輪往前",
+    "KimlabmicrobitC.RWHEELb|block": "右輪往後",
 	
-	"KimlabmicrobitC.BWHEELS|block": "左輪停止",
-	"KimlabmicrobitC.BWHEELf|block": "左輪往前",
-	"KimlabmicrobitC.BWHEELb|block": "左輪往後",
+    "KimlabmicrobitC.BWHEELS|block": "左輪停止",
+    "KimlabmicrobitC.BWHEELf|block": "左輪往前",
+    "KimlabmicrobitC.BWHEELb|block": "左輪往後",
 	
-	"KimlabmicrobitC.Button_PullUp|block": "設定按鈕",
+    "KimlabmicrobitC.Button_PullUp|block": "設定按鈕",
 	
-	"KimlabmicrobitC.Left_Servo|block": "左邊伺服馬達",
-	"KimlabmicrobitC.Right_Servo|block": "右邊伺服馬達"	
+    "KimlabmicrobitC.Left_Servo|block": "左邊伺服馬達",
+    "KimlabmicrobitC.Right_Servo|block": "右邊伺服馬達"	
 }

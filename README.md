@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-KimLabs-microbit-controller=github:kimlabtoy/microbit-controller
+microbit-controller=github:kimlabtoy/microbit-controller
 ```

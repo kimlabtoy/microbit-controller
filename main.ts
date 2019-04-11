@@ -1,4 +1,4 @@
-//% weight=0 color=#000000 icon="\uf11a"
+//% weight=0 color=#000000 icon="\uf11a"  block="Kimlabmicrobit"
 namespace Kimlabmicrobit {
    
 	

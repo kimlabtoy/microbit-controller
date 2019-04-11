@@ -7,9 +7,9 @@
     "Kimlabmicrobit.RWHEELf|block": "右輪往前",
     "Kimlabmicrobit.RWHEELb|block": "右輪往後",
 	
-    "Kimlabmicrobit.BWHEELS|block": "左輪停止",
-    "Kimlabmicrobit.BWHEELf|block": "左輪往前",
-    "Kimlabmicrobit.BWHEELb|block": "左輪往後",
+    "Kimlabmicrobit.LWHEELS|block": "左輪停止",
+    "Kimlabmicrobit.LWHEELf|block": "左輪往前",
+    "Kimlabmicrobit.LWHEELb|block": "左輪往後",
 	
     "Kimlabmicrobit.Button_PullUp|block": "設定按鈕",
 	

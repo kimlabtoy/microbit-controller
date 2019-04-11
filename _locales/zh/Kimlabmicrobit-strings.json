@@ -13,6 +13,6 @@
 	
     "Kimlabmicrobit.Button_PullUp|block": "設定按鈕",
 	
-    "Kimlabmicrobit.Left_Servo|block": "左邊伺服馬達",
-    "Kimlabmicrobit.Right_Servo|block": "右邊伺服馬達"	
+    "Kimlabmicrobit.Left_Servo|block": "左邊伺服馬達 角度 %degree",
+    "Kimlabmicrobit.Right_Servo|block": "右邊伺服馬達 角度 %degree"	
 }

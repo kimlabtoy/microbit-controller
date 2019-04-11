@@ -1,4 +1,4 @@
-# KimLabs-microbit-controller
+# Kimlabmicrobit
 
 測試microbit積木
 

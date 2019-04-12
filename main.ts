@@ -14,13 +14,13 @@ namespace Kimlabmicrobit {
 
 	export enum CBTM {
         //% block="1"
-        1 = <number>PinA,
+        A = <number>PinA,
         //% block="2"
-        2 = <number>PinB,
+        B = <number>PinB,
         //% block="3"
-        3 = <number>PinC,
+        C = <number>PinC,
         //% block="4"
-        4 = <number>PinD,
+        D = <number>PinD,
         
     }
 	

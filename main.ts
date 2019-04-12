@@ -1,13 +1,26 @@
 #include "pxt.h"
 
-enum class KLBTMPin {
-    P0 = MICROBIT_ID_IO_P0,
-    P1 = MICROBIT_ID_IO_P1,
-    P2 = MICROBIT_ID_IO_P2,
-    P5 = MICROBIT_ID_IO_P5,
-	
-	
-}
+
+
+
+
+    const Pin1 = DigitalPin.P0;
+    const Pin2 = DigitalPin.P1;
+    const Pin3 = DigitalPin.P2;
+    const Pin4 = DigitalPin.P5;
+
+export enum btnName {
+        //% block="1"
+        A = <number>Pin1,
+        //% block="2"
+        B = <number>Pin2,
+        //% block="3"
+        C = <number>Pin3,
+        //% block="4"
+        D = <number>Pin4,
+        
+    }
+
 
 
 
@@ -154,13 +167,26 @@ namespace Kimlabmicrobit {
         
     }
 	
-	
-    //% blockId=BUTTOM block="Buttom %pin | %dir" blockExternalInputs=false
+/**	
+    //% blockId=BUTTOM block="Buttom | %pin | %dir" blockExternalInputs=false
     //% weight=50
     export function BUTTOM(pin:KLBTMPin ,dir: pushType, handler: Action): void {
-        pins.onPulsed(pin, <number>dir, handler);
+        pins.onPulsed(<number>pin, <number>dir, handler);
     }
-
+*/
+	
+	
+    /**
+     * Do something when a button is pushed down or released. 
+     */
+    //% blockId=BUTTOM block="Buttom |%myBtn|  %dir|" blockInlineInputs=true
+    //% weight=70
+    export function BUTTOM(myBtn: btnName, dir: pushType, handler: Action): void {
+        if (!init) {
+            pin_init();
+        }
+        pins.onPulsed(<number>myBtn, <number>dir, handler);
+    }
 
     
 }

@@ -1,23 +1,17 @@
-#include "pxt.h"
+    const PinA = DigitalPin.P0;
+    const PinB = DigitalPin.P1;
+    const PinC = DigitalPin.P2;
+    const PinD = DigitalPin.P5;
 
-
-
-
-
-    const Pin1 = DigitalPin.P0;
-    const Pin2 = DigitalPin.P1;
-    const Pin3 = DigitalPin.P2;
-    const Pin4 = DigitalPin.P5;
-
-export enum btnName {
+export enum CBTM {
         //% block="1"
-        A = <number>Pin1,
+        1 = <number>PinA,
         //% block="2"
-        B = <number>Pin2,
+        2 = <number>PinB,
         //% block="3"
-        C = <number>Pin3,
+        3 = <number>PinC,
         //% block="4"
-        D = <number>Pin4,
+        4 = <number>PinD,
         
     }
 
@@ -167,21 +161,15 @@ namespace Kimlabmicrobit {
         
     }
 	
-/**	
-    //% blockId=BUTTOM block="Buttom | %pin | %dir" blockExternalInputs=false
-    //% weight=50
-    export function BUTTOM(pin:KLBTMPin ,dir: pushType, handler: Action): void {
-        pins.onPulsed(<number>pin, <number>dir, handler);
-    }
-*/
+
 	
 	
     /**
      * Do something when a button is pushed down or released. 
      */
-    //% blockId=BUTTOM block="Buttom |%myBtn|  %dir|" blockInlineInputs=true
+    //% blockId=BUTTOM block="Buttom |%myBtn|    |%dir|" blockInlineInputs=true
     //% weight=70
-    export function BUTTOM(myBtn: btnName, dir: pushType, handler: Action): void {
+    export function BUTTOM(myBtn: CBTM, dir: pushType, handler: Action): void {
         if (!init) {
             pin_init();
         }

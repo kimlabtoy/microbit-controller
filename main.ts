@@ -16,6 +16,14 @@ namespace Kimlabmicrobit {
    
 	
 	
+        export enum pushType {
+        //% block="pressed"
+        down = PulseValue.High,
+        //% block="released"
+        up = PulseValue.Low
+    }	
+	
+	
     /**
     * 不回傳值
     */
@@ -147,16 +155,10 @@ namespace Kimlabmicrobit {
     }
 	
 	
-	/**
-     * Read the specified pin or connector as either 0 or 1
-     * @param name pin to read from, eg: DigitalPin.P0
-     */
-    //% help=pins/digital-read-pin weight=30
-    //% blockId=device_get_digital_pin block="Buttom read|pin %name" blockGap=8
-    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
-    //% name.fieldOptions.tooltips="false" name.fieldOptions.width="250"
-    int digitalReadPin(KLBTMPin name) {
-        PINREAD(getDigitalValue());
+    //% blockId=BUTTOM block="Buttom %pin | %dir" blockExternalInputs=false
+    //% weight=50
+    export function BUTTOM(pin:KLBTMPin ,dir: pushType, handler: Action): void {
+        pins.onPulsed(pin, <number>dir, handler);
     }
 
 

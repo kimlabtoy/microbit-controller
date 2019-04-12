@@ -1,3 +1,16 @@
+#include "pxt.h"
+
+enum class KLBTMPin {
+    P0 = MICROBIT_ID_IO_P0,
+    P1 = MICROBIT_ID_IO_P1,
+    P2 = MICROBIT_ID_IO_P2,
+    P5 = MICROBIT_ID_IO_P5,
+	
+	
+}
+
+
+
 //% weight=0 color=#000000 icon="\uf11a"  block="Kimlabmicrobit"
 namespace Kimlabmicrobit {
    
@@ -132,6 +145,20 @@ namespace Kimlabmicrobit {
          pins.servoWritePin(AnalogPin.P15, degree)
         
     }
+	
+	
+	/**
+     * Read the specified pin or connector as either 0 or 1
+     * @param name pin to read from, eg: DigitalPin.P0
+     */
+    //% help=pins/digital-read-pin weight=30
+    //% blockId=device_get_digital_pin block="Buttom read|pin %name" blockGap=8
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
+    //% name.fieldOptions.tooltips="false" name.fieldOptions.width="250"
+    int digitalReadPin(KLBTMPin name) {
+        PINREAD(getDigitalValue());
+    }
+
 
     
 }

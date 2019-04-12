@@ -3,7 +3,16 @@
     const PinC = DigitalPin.P2;
     const PinD = DigitalPin.P5;
 
-export enum CBTM {
+
+
+
+
+
+//% weight=0 color=#000000 icon="\uf11a"  block="Kimlabmicrobit"
+namespace Kimlabmicrobit {
+   
+
+	export enum CBTM {
         //% block="1"
         1 = <number>PinA,
         //% block="2"
@@ -14,13 +23,6 @@ export enum CBTM {
         4 = <number>PinD,
         
     }
-
-
-
-
-//% weight=0 color=#000000 icon="\uf11a"  block="Kimlabmicrobit"
-namespace Kimlabmicrobit {
-   
 	
 	
         export enum pushType {
@@ -135,9 +137,9 @@ namespace Kimlabmicrobit {
     
     export function Button_PullUp(): void {
         pins.setPull(DigitalPin.P0, PinPullMode.PullUp)
-		pins.setPull(DigitalPin.P2, PinPullMode.PullUp)
-		pins.setPull(DigitalPin.P1, PinPullMode.PullUp)
-		pins.setPull(DigitalPin.P5, PinPullMode.PullUp)
+	pins.setPull(DigitalPin.P2, PinPullMode.PullUp)
+	pins.setPull(DigitalPin.P1, PinPullMode.PullUp)
+	pins.setPull(DigitalPin.P5, PinPullMode.PullUp)
     }
 	
 	

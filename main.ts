@@ -32,6 +32,19 @@ namespace Kimlabmicrobit {
         up = PulseValue.Low
     }	
 	
+	function pin_init(): void {
+        pins.setPull(PinA, PinPullMode.PullUp);
+        pins.setPull(PinB, PinPullMode.PullUp);
+        pins.setPull(PinC, PinPullMode.PullUp);
+        pins.setPull(PinD, PinPullMode.PullUp);
+       
+        init = true;
+    }
+    pin_init();
+	
+	
+	
+	
 	
     /**
     * 不回傳值

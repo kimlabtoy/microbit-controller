@@ -10,7 +10,7 @@
 
 //% weight=0 color=#000000 icon="\uf11a"  block="Kimlabmicrobit"
 namespace Kimlabmicrobit {
-   
+       let init = false;
 
 	export enum CBTM {
         //% block="1"

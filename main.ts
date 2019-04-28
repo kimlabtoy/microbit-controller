@@ -182,9 +182,9 @@ namespace Kimlabmicrobit {
     /**
      * Do something when a button is pushed down or released. 
      */
-    //% blockId=BUTTOM block="Buttom |%myBtn|   %dir|" blockInlineInputs=true
+    //% blockId=BUTTON block="Button |%myBtn|   %dir|" blockInlineInputs=true
     //% weight=70
-    export function BUTTOM(myBtn: CBTM, dir: pushType, handler: Action): void {
+    export function BUTTON(myBtn: CBTM, dir: pushType, handler: Action): void {
         if (!init) {
             pin_init();
         }

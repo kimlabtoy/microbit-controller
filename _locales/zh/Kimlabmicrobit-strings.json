@@ -1,6 +1,7 @@
 {
     "Kimlabmicrobit|block": "機器人方塊",
-   
+    "Kimlabmicrobit.pushType.down|block":"按下",
+    "Kimlabmicrobit.pushType.up|block":"放開",
     "Kimlabmicrobit.LedTest|block": "笑臉",
 	
     "Kimlabmicrobit.RWHEELS|block": "右輪停止",
@@ -14,5 +15,6 @@
     "Kimlabmicrobit.Button_PullUp|block": "設定按鈕",
 	
     "Kimlabmicrobit.Left_Servo|block": "左邊伺服馬達 角度 %degree",
-    "Kimlabmicrobit.Right_Servo|block": "右邊伺服馬達 角度 %degree"	
+    "Kimlabmicrobit.Right_Servo|block": "右邊伺服馬達 角度 %degree",
+	"Kimlabmicrobit.BUTTON|block": "當按鈕 |%myBtn| |%dir|"
 }
